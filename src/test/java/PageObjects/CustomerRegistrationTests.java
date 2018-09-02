@@ -16,8 +16,6 @@ public class CustomerRegistrationTests extends TestBase {
         driver.findElement(By.name("city")).sendKeys("New City");
 
         new Select(driver.findElement(By.name("country_code"))).selectByValue("US");
-
-        //wait.until((WebDriver d) -> d.findElement(By.cssSelector("select[name=zone_code] option[value=KS]")));
         new Select(driver.findElement(By.name("zone_code"))).selectByValue("KS");
 
         driver.findElement(By.xpath("/html/body/div[1]/div[2]/main/div/form/div[6]/div[1]/div/input")).sendKeys(email);
