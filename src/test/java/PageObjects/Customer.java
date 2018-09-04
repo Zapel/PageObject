@@ -1,6 +1,6 @@
 package PageObjects;
 
-public class Customer {
+public class Customer extends DataProviders {
     private String firstname;
     private String lastname;
     private String address1;
@@ -12,7 +12,8 @@ public class Customer {
     private String phone;
     private String password;
 
-    private Customer(Builder builder) {
+
+    public Customer(Builder builder) {
         this.firstname = builder.firstname;
         this.lastname = builder.lastname;
         this.address1 = builder.address1;

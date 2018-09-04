@@ -1,18 +1,18 @@
 package PageObjects;
 
+import com.tngtech.java.junit.dataprovider.DataProviderRunner;
+import com.tngtech.java.junit.dataprovider.UseDataProvider;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
+@RunWith(DataProviderRunner.class)
 public class CustomerRegistrationTests extends TestBase {
-    @Test
-    public void canRegisterCustomer() {
-        Customer customer = new Customer.Builder()
-                .setFirstname("Adam").setLastname("Smith").setAdress1("Hidden Place")
-                .setPostcode("12345").setCity("New City").setCountry("US").setZone("KS")
-                .setEmail("adam"+System.currentTimeMillis()+"@smith.me")
-                .setPhone("+0123456789").setPassword("qwerty").build();
 
+    @Test
+    @UseDataProvider(value = "validCustomers", location = DataProviders.class)
+    public void canRegisterCustomer(Customer customer) {
         driver.get("http://localhost/litecart/en/create_account");
         driver.findElement(By.name("firstname")).sendKeys(customer.getFirstname());
         driver.findElement(By.name("lastname")).sendKeys(customer.getLastname());
