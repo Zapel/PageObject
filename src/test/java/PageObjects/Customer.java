@@ -12,7 +12,6 @@ public class Customer extends DataProviders {
     private String phone;
     private String password;
 
-
     public Customer(Builder builder) {
         this.firstname = builder.firstname;
         this.lastname = builder.lastname;
@@ -91,7 +90,7 @@ public class Customer extends DataProviders {
             return this;
         }
 
-        public Builder setAddress1(String address1) {
+        public Builder setAdress1(String address1) {
             this.address1 = address1;
             return this;
         }
@@ -113,11 +112,6 @@ public class Customer extends DataProviders {
 
         public Builder setPassword(String password) {
             this.password = password;
-            return this;
-        }
-
-        public Builder setAdress1(String address1) {
-            this.address1 = address1;
             return this;
         }
 
