@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-public class CustomerRegistrationTests2 extends TestBase {
+public class CustomerRegistrationTests2 extends testAll.TestBase {
 
     @Test
     public void canRegisterCustomer() {
