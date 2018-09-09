@@ -1,4 +1,6 @@
-package PageObjects;
+package PageObjects.Model;
+
+import PageObjects.Tests.DataProviders;
 
 public class Customer extends DataProviders {
     private String firstname;

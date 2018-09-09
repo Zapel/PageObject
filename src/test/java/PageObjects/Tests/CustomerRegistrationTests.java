@@ -1,5 +1,6 @@
-package PageObjects;
+package PageObjects.Tests;
 
+import PageObjects.Model.Customer;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 import org.junit.Test;
@@ -15,15 +16,15 @@ public class CustomerRegistrationTests extends TestBase {
     @Test
     @UseDataProvider(value = "validCustomers", location = DataProviders.class)
     public void canRegisterCustomer(Customer customer) {
-       Set<String> oldIds = app.getCustomerIds();
-       System.out.println(oldIds);
+        Set<String> oldIds = app.getCustomerIds();
+        System.out.println(oldIds);
 
-       app.registerNewCustomer(customer);
+        app.registerNewCustomer(customer);
 
-       Set<String> newIds = app.getCustomerIds();
-       System.out.println(newIds);
+        Set<String> newIds = app.getCustomerIds();
+        System.out.println(newIds);
 
-       assertTrue(newIds.containsAll(oldIds));
-       assertTrue(newIds.size() == oldIds.size() + 1);
+        assertTrue(newIds.containsAll(oldIds));
+        assertTrue(newIds.size() == oldIds.size() + 1);
     }
 }

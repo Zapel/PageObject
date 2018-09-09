@@ -1,5 +1,6 @@
-package PageObjects;
+package PageObjects.Tests;
 
+import PageObjects.Model.Customer;
 import com.tngtech.java.junit.dataprovider.DataProvider;
 
 public class DataProviders {

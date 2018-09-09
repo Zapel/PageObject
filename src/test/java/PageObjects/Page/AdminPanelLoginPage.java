@@ -1,4 +1,4 @@
-package PageObjects;
+package PageObjects.Page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

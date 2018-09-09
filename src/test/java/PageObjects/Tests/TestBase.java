@@ -1,5 +1,6 @@
-package PageObjects;
+package PageObjects.Tests;
 
+import PageObjects.App.Application;
 import org.junit.After;
 import org.junit.Before;
 
