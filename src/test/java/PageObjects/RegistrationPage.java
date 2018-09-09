@@ -42,6 +42,12 @@ public class RegistrationPage extends Page {
     }
 
     public WebElement createAccountButton() {
-        return driver.findElement(By.name("create_account"));
+        return driver.findElement( By.name("create_account"));
+    }
+
+    public void selectCountry(String country) {
+        driver.findElement(By.cssSelector("[id ^= select2-country_code]")).click();
+        driver.findElement(By.cssSelector(
+                String.format(".select2-results__option[id $= %s", country))).click();
     }
 }
