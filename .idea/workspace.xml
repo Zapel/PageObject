@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5149e04-210b-4602-9394-8b1ec72562d9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AdminPanelLoginPage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/CustomerListPage.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AdminPanelLoginPage.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/Application.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/CustomerListPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/DataProviders.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/DataProviders.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/Page.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/Page.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,28 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomerRegistrationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CustomerRegistrationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataProviders.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/DataProviders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegistrationPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,20 +52,6 @@
                 <element signature="e#1271#1272#0" expanded="true" />
                 <element signature="e#1318#1319#0" expanded="true" />
                 <element signature="e#1387#1388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="37" column="60" lean-forward="false" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,13 +115,13 @@
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/Customer.java" />
         <option value="$PROJECT_DIR$/src/test/java/testAll/CustomerRegistrationTests2.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/CustomerListPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/Page.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/AdminPanelLoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/CustomerRegistrationTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/DataProviders.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/AdminPanelLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/CustomerListPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/Application.java" />
       </list>
     </option>
   </component>
@@ -183,8 +144,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="84" />
-    <option name="y" value="102" />
+    <option name="x" value="97" />
+    <option name="y" value="269" />
     <option name="width" value="1307" />
     <option name="height" value="676" />
   </component>
@@ -583,12 +544,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerRegistrationTests - 2018.09.09 at 18h 01m 14s.xml">
-      <configuration name="CustomerRegistrationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerRegistrationTests - 2018.09.09 at 18h 02m 19s.xml">
-      <configuration name="CustomerRegistrationTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerRegistrationTests - 2018.09.09 at 18h 05m 27s.xml">
       <configuration name="CustomerRegistrationTests" configurationId="JUnit" />
     </history-entry>
@@ -605,6 +560,12 @@
       <configuration name="CustomerRegistrationTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CustomerRegistrationTests - 2018.09.09 at 18h 59m 22s.xml">
+      <configuration name="CustomerRegistrationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerRegistrationTests - 2018.09.09 at 19h 29m 18s.xml">
+      <configuration name="CustomerRegistrationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerRegistrationTests - 2018.09.09 at 19h 55m 50s.xml">
       <configuration name="CustomerRegistrationTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CustomerRegistrationTests_canRegisterCustomer - 2018.09.09 at 18h 04m 08s.xml">
@@ -635,7 +596,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51555556" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51555556" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21444444" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -922,14 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CustomerListPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO4B16DBC7/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -980,14 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AdminPanelLoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testAll/Displayed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1028,10 +973,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/DataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AdminPanelLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="79" lean-forward="false" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CustomerRegistrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1040,21 +1007,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="37" column="60" lean-forward="false" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        <state relative-caret-position="485">
+          <caret line="54" column="89" lean-forward="true" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/DataProviders.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CustomerListPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
